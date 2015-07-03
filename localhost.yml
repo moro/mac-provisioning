@@ -1,10 +1,11 @@
 - hosts: localhost
   connection: local
-  gather_facts: no           
+  gather_facts: no
   sudo: no
   vars:
     homebrew_taps:
       - caskroom/cask
+      - homebrew/dupes
     homebrew_packages:
       - { name: ansible }
       - { name: coreutils }
@@ -12,6 +13,7 @@
       - { name: git }
       - { name: go }
       - { name: jq }
+      - { name: keychain }
       - { name: lv }
       - { name: macvim }
       - { name: openssl }
@@ -23,6 +25,8 @@
       - { name: readline }
       - { name: redis }
       - { name: ruby-build }
+      - { name: screen }
+      - { name: the_silver_searcher }
       - { name: vim }
       - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages:
