@@ -24,6 +24,8 @@
       - { name: ruby-build }
       - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages:
+      - { name: amethyst }
+      - { name: butter }
       - { name: dash }
       - { name: google-chrome }
       - { name: google-japanese-ime }
