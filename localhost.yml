@@ -13,6 +13,7 @@
       - { name: go }
       - { name: jq }
       - { name: lv }
+      - { name: macvim }
       - { name: openssl }
       - { name: openssl, state: linked, install_options: force }
       - { name: peco }
@@ -22,6 +23,7 @@
       - { name: readline }
       - { name: redis }
       - { name: ruby-build }
+      - { name: vim }
       - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages:
       - { name: amethyst }
