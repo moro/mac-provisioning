@@ -30,6 +30,7 @@
       - { name: vim }
       - { name: zsh, install_options: disable-etcdir }
     homebrew_cask_packages:
+      - { name: alfred }
       - { name: amethyst }
       - { name: butter }
       - { name: dash }
