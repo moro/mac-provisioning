@@ -31,6 +31,7 @@
       - { name: the_silver_searcher }
       - { name: vim }
       - { name: zsh, install_options: disable-etcdir }
+      - { name: zsh-completions }
     homebrew_cask_packages:
       - { name: alfred }
       - { name: amethyst }
