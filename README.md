@@ -1,5 +1,9 @@
 # My Mac provisioning
 
+http://t-wada.hatenablog.jp/entry/mac-provisioning-by-ansible
+
+これをもとに、自分用に色々手を加えたものです。
+
 ## Post provisioning
 
 - iTerm の default の実行コマンドを `/usr/local/bin/zsh` に
